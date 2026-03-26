@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/promode/Documents/TTA/ATB15xSeleniumAdvanceFramework">
+        <classes>
+            <class name="org.example.tests.VWO.TestCase_VWO_login">
+                <methods>
+                    <include name="TC01_postive_VWO_login"/>
+                    <include name="TC02_negative_VWO_login"/>
+                    <include name="TC03_freeTrialVerify"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
